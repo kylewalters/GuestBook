@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/createEventLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shattered"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/createEventTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/createEventTItleTextView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/createEventTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eventTitleHint" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/createEventLocationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eventAddressHint"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/createEventDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="@string/eventDateHint"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/createEventStartTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="@string/eventStartTimeHint"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/createEventEndTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="@string/createEventEndTimeHint"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/createEventContactEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/createEventContactEditText"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/createEventDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eventDescriptionHint"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/createEventStartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/createEventSubmitButton" />
+
+</LinearLayout>

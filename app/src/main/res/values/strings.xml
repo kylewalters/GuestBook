@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GuestBook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">GuestBook Login</string>
+    <string name="title_activity_sign_up">GuestBook Sign Up</string>
+    <string name="firstnameHint">First Name</string>
+    <string name="lastnameHint">Last Name</string>
+    <string name="emailHint">Email Address</string>
+    <string name="fullnameHint">Full Name</string>
+    <string name="passwordHint">Password</string>
+    <string name="confirmPassHint">Confirm Password</string>
+    <string name="signupSubmitButton">Sign Up</string>
+    <string name="loginSubmitButton">Login</string>
+    <string name="title_activity_check_in">GuestBook Check-In</string>
+    <string name="addressHint">Address</string>
+    <string name="phoneHint">Phone Number</string>
+    <string name="eventIdHint">Event ID</string>
+    <string name="checkinSubmitButton">Check In</string>
+    <string name="checkInCreateAccountTextView">Create New Account</string>
+    <string name="checkInEventTextView">Event Check In</string>
+    <string name="mainCheckInTextView">Event Check In</string>
+    <string name="mainLoginTextView">Log In</string>
+    <string name="title_activity_account">Your Events</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainSignUpTextView">Create Account</string>
+    <string name="logOutLabel">Log Out</string>
+    <string name="title_activity_create_event">Create New Event</string>
+    <string name="createEventTItleTextView">Create A New Event</string>
+    <string name="eventTitleHint">Event Title</string>
+    <string name="eventAddressHint">Event Address</string>
+    <string name="eventDateHint">Event Date</string>
+    <string name="eventStartTimeHint">Event Start Time</string>
+    <string name="createEventEndTimeHint">Event End Time</string>
+    <string name="createEventContactEditText">Event Contact</string>
+    <string name="createEventDiscriptionEditText">Event Description</string>
+    <string name="eventDescriptionHint">Event Description</string>
+    <string name="createEventSubmitButton">Create Event</string>
+    <string name="addEventLabel">Create Event</string>
+    <string name="refreshLabel">Refresh List</string>
+    <string name="eventDescription">Event Description</string>
+    <string name="eventTitle">Event Title</string>
+    <string name="eventDate">Event Date</string>
+    <string name="title_activity_event_manager">Event Attendees</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_attendee_details">Attendee Details</string>
+    <string name="attendeeDetailsTextView">Attendee Details</string>
+    <string name="title_activity_attendee_registered_events">Your Check-Ins</string>
+    <string name="attendeeUpgradeAcct">Create Your Own Events</string>
+    <string name="mainCheckInTextViewLabel">\"Check In\" App Function</string>
+    <string name="mainEventManagerTextViewLabel">\&quot;Event Manager\&quot; App Function</string>
+    <string name="GuestBookLogo">GuestBook App Logo</string>
+    <string name="objectIdHint">Event ID</string>
+    <string name="eventContactHint">Event Contact</string>
+    <string name="exportAttendees">Export to CSV</string>
+    <string name="title_activity_attendee_registered_event_detail">AttendeeRegisteredEventDetailActivity</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kylethetechguy.guestbook.EventManagerActivity" >
+    <item android:id="@+id/exportAttendees" android:orderInCategory="100" android:title="@string/exportAttendees" android:showAsAction="never"></item>
+
+</menu>
